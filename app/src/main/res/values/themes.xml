@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="Theme.SantanderDevWeek" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Tema se ActionBar por padrão para poder nos mesmos customizar -->
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/redPrimary</item>
+        <item name="colorPrimaryVariant">@color/redSecondary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+</resources>
